@@ -1,0 +1,11 @@
+Concerns:
+  1. Security - Security concerns are of the highest priority because normally, they're not unit tested thoroughly and accessing
+     someone's private repos with incorrect authentication would jeopardize all of github and lose customers' trust.
+  2. Availability - We want to know that all of our service offerings are available to customers and that commits/deployments did
+     not alter feature availability.
+  3. Features working properly - Feature testing is deprecated when performaing API testing as API testing is mainly concerned
+     with API availability and proper authentication. In case feature testing is not covered elsewhere (unit/integration), 
+     then feature testing can be performed at the API level as well.
+
+Method:
+  1. I would go about 
