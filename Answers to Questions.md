@@ -27,3 +27,7 @@ Tests:
     2. POST new repo
     3. PATCH repo description, validate success
     4. DELETE newly added repo
+
+
+How to Initiate a CI Run:
+  1. Simply make a commit to the WayBlazer project and a CI run will automatically execute.
